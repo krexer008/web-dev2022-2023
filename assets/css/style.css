@@ -1,0 +1,9 @@
+body, .section_title {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 12px;
+}
+
+
+.logo, .nm_link, h1, h2 {
+    font-family: 'Lora', serif;
+}

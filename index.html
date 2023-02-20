@@ -1,133 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Escape</title>
-</head>
-<body>
-<header>
-    <img src="img\header_background.png" alt="header_background">
-    <div>
-        <span>Escape.</span>
-        <nav>
-            <a href="#">HOME</a>
-            <a href="#">CATEGORIES</a>
-            <a href="#">ABOUT</a>
-            <a href="#">CONTACT</a>
-        </nav>
-    </div>
-    <h1>Let's do it together</h1>
-    <p>We travel the world in search of stories. Come along for the ride.</p>
-    <button>View Latest Posts</button>
-</header>
-<nav>
-    <a href="">Nature</a>
-    <a href="">Photography</a>
-    <a href="">Relaxation</a>
-    <a href="">Vacation</a>
-    <a href="">Travel</a>
-    <a href="">Adventure</a>
-</nav>
 
-<section>
-    <h2>Featured Posts</h2>
-    <div>
-        <img src="img\The Road Ahead.jpg">
-        <h2>The Road Ahead</h2>
-        <h3>The road ahead might be paved - it might not be.</h3>
-        <div>
-            <img src="img\MatVogels.jpg">
-            <span>Mat Vogels</span>
-            <span>September 25, 2015</span>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Oxygen:wght@400;700&display=swap"
+    rel="stylesheet">
+  <title>Escape.</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header_inner cntnt_prp">
+      <span class="header_logo logo">Escape.</span>
+      <nav class="header_nav_bar">
+        <div class="header_nav_item">
+          <a class="hnb_link nav_link active" href="#">HOME</a>
         </div>
-        <div>
-            <img src="img\From Top Down.jpg">
-            <span>Adventure</span>
-            <h2>From Top Down</h2>
-            <h3>Once a year, go someplace you never been before.</h3>
-            <div><img src="img\WilliamWong.png">
-                <span>William Wong</span>
-                <span>September 25, 2015</span>
-            </div>
+        <div class="header_nav_item">
+          <a class="hnb_link nav_link" href="#">CATEGORIES</a>
         </div>
+        <div class="header_nav_item">
+          <a class="hnb_link nav_link" href="#">ABOUT</a>
+        </div>
+        <div class="header_nav_item">
+          <a class="hnb_link nav_link" href="#">CONTACT</a>
+        </div>
+      </nav>
     </div>
-</section>
-<section>
-    <h2>Most Recent</h2>
-    <div>
-        <img src="img\Still Standing Tall.jpg">
-        <h3>Still Standing Tall</h3>
-        <h4>Life begins at the end of your comfort zone.</h4>
-        <div>
-            <img src="img\WilliamWong.png">
-            <span>William Wong</span>
-            <span>9/25/2015</span>
-        </div>
-        <div>
-            <img src="img\Sunny Side Up.jpg">
-            <h3>Sunny Side Up</h3>
-            <h4>No place is ever as bad as they tell you it's going to be.</h4>
-            <div>
-                <img src="img\MatVogels.jpg">
-                <span>Mat Vogels</span>
-                <span>9/25/2015</span>
-            </div>
-            <div>
-                <img src="img\Water Falls.jpg">
-                <h3>Water Falls</h3>
-                <h4>We travel not to escape life, but for life not to escape us.</h4>
-                <div>
-                    <img src="img\MatVogels.jpg">
-                    <span>Mat Vogels</span>
-                    <span>9/25/2015</span>
-                </div>
-                <div>
-                    <img src="img\Through the Mist.jpg">
-                    <h3>Through the Mist</h3>
-                    <h4>Travel makes you see what a tiny place you occupy in the world.</h4>
-                    <div>
-                        <img src="img\WilliamWong.png">
-                        <span>William Wong</span>
-                        <span>9/25/2015</span>
-                    </div>
-                    <div>
-                        <img src="img\Awaken Early.jpg">
-                        <h3>Awaken Early</h3>
-                        <h4>Not all those who wander are lost.</h4>
-                        <div>
-                            <img src="img\MatVogels.jpg">
-                            <span>Mat Vogels</span>
-                            <span>9/25/2015</span>
-                        </div>
-                        <div>
-                            <img src="img\Try it Always.jpg">
-                            <h3>Try it Always</h3>
-                            <h4>The world is a book, and those who do not travel read only one page.</h4>
-                            <div>
-                                <img src="img\MatVogels.jpg">
-                                <span>Mat Vogels</span>
-                                <span>9/25/2015</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+  </header>
+  <div class="intro">
+    <div class="intro__inner cntnt_prp">
+      <h1 class="intro__title">Let's do it together</h1>
+      <h3 class="intro__subtitle">We travel the world in search of stories. Come along for the ride.</h3>
+      <div class="intro_btn btn">
+        <a class="intro_btn_text" href="#">View Latest Posts</a>
+      </div>
     </div>
-</section>
-<footer>
-    <img src="img\Rectangle.jpg">
-    <div>
-        <span id="logo">Escape.</span>
-        <nav>
-            <a href="#">HOME</a>
-            <a href="#">CATEGORIES</a>
-            <a href="#">ABOUT</a>
-            <a href="#">CONTACT</a>
+  </div>
+  <div class="menu">
+    <nav class="nav_menu cntnt_prp">
+      <div class="menu_nav_item">
+        <a class="nm_link nav_link" href="#">Nature</a>
+      </div>
+      <div class="menu_nav_item">
+        <a class="nm_link nav_link" href="#">Photography</a>
+      </div>
+      <div class="menu_nav_item">
+        <a class="nm_link nav_link" href="#">Relaxation</a>
+      </div>
+      <div class="menu_nav_item">
+        <a class="nm_link nav_link" href="#">Vacation</a>
+      </div>
+      <div class="menu_nav_item">
+        <a class="nm_link nav_link" href="#">Travel</a>
+      </div>
+      <div class="menu_nav_item">
+        <a class="nm_link nav_link" href="#">Adventure</a>
+      </div>
+    </nav>
+  </div>
+  <div class="element_line_general"></div>
+  <div class="main">
+    <section class="featured_post cntnt_prp">
+      <div class="section_header">
+        <h1 class="section_title">Featured Posts</h1>
+        <div class="element_line"></div>
+      </div>
+      <div class="posts fp_section">
+        <article>
+          <div class="post_category fp_post_category" hidden>
+            <div class="post_category_btn btn">
+              <span>Photography</span>
+            </div>
+          </div>
+          <div class="post_desc mr_post_desc">
+            <h1>The Road Ahead</h1>
+            <p>The road ahead might be paved - it might not be.</p>
+          </div>
+          <footer class="post_inf fp_post_inf">
+            <img src="assets\images\mat_vogels.jpg">
+            <span class="author">Mat Vogels</span>
+            <span class="posted_time"><time datetime="2015-09-25">September 25, 2015</time></span>
+          </footer>
+        </article>
+        <article>
+          <div class="post_category fp_post_category">
+            <div class="post_category_btn btn">
+              <span>Adventure</span>
+            </div>
+          </div>
+          <div class="post_desc mr_post_desc">
+            <h1>From Top Down</h1>
+            <p>Once a year, go someplace you never been before.</p>
+          </div>
+          <footer class="post_inf fp_post_inf">
+            <img src="assets\images\william_wong.jpg">
+            <span class="author">William Wong</span>
+            <span class="posted_time"><time datetime="2015-09-25">September 25, 2015</time></span>
+          </footer>
+        </article>
+      </div>
+    </section>
+    <section class="most_recent cntnt_prp">
+      <div class="section_header">
+        <h1 class="section_title">Most Recent</h1>
+        <div class="element_line"></div>
+      </div>
+      <div class="posts mr_section">
+        <article>
+          <div class="post_category mr_post_category" hidden>
+            <div class="post_category_btn btn">
+              <span>Nature</span>
+            </div>
+          </div>
+          <div class="element_line mr_post"></div>
+          <div class="post_desc mr_post_desc">
+            <h1>Still Standing Tall</h1>
+            <p>Life begins at the end of your comfort zone.</p>
+          </div>
+          <footer class="post_inf mr_post_inf">
+            <img src="assets\images\william_wong.jpg">
+            <span class="author">William Wong</span>
+            <span class="posted_time"><time datetime="2015-09-25">9/25/2015</time> </span>
+          </footer>
+        </article>
+        <article>
+          <div class="post_category mr_post_category" hidden>
+            <div class="post_category_btn btn">
+              <span>Photography</span>
+            </div>
+          </div>
+          <div class="element_line mr_post"></div>
+          <div class="post_desc mr_post_desc">
+            <h1>Sunny Side Up</h1>
+            <p>No place is ever as bad as they tell you it's going to be.</p>
+          </div>
+          <div class="element_line mr_post"></div>
+          <footer class="post_inf mr_post_inf">
+            <img src="assets\images\mat_vogels.jpg">
+            <span class="author">Mat Vogels</span>
+            <span class="posted_time"><time datetime="2015-09-25">9/25/2015</time> </span>
+          </footer>
+        </article>
+        <article>
+          <div class="post_category mr_post_category" hidden>
+            <div class="post_category_btn btn">
+              <span>Relaxation</span>
+            </div>
+          </div>
+          <div class="element_line mr_post"></div>
+          <div class="post_desc mr_post_desc">
+            <h1>Water Falls</h1>
+            <p>We travel not to escape life, but for life not to escape us.</p>
+          </div>
+          <div class="element_line mr_post"></div>
+          <footer class="post_inf mr_post_inf">
+            <img src="assets\images\mat_vogels.jpg">
+            <span class="author">Mat Vogels</span>
+            <span class="posted_time"><time datetime="2015-09-25">9/25/2015</time> </span>
+          </footer>
+          <div class="element_line mr_post"></div>
+        </article>
+        <article>
+          <div class="post_category mr_post_category" hidden>
+            <div class="post_category_btn btn">
+              <span>Vacation</span>
+            </div>
+          </div>
+          <div class="element_line mr_post"></div>
+          <div class="post_desc mr_post_desc">
+            <h1>Through the Mist</h1>
+            <p>Travel makes you see what a tiny place you occupy in the world.</p>
+          </div>
+          <div class="element_line mr_post"></div>
+          <footer class="post_inf mr_post_inf">
+            <img src="assets\images\william_wong.jpg">
+            <span class="author">William Wong</span>
+            <span class="posted_time"><time datetime="2015-09-25">9/25/2015</time> </span>
+          </footer>
+        </article>
+        <article>
+          <div class="post_category mr_post_category" hidden>
+            <div class="post_category_btn btn">
+              <span>Vacation</span>
+            </div>
+          </div>
+          <div class="element_line mr_post"></div>
+          <div class="post_desc mr_post_desc">
+            <h1>Awaken Early</h1>
+            <p>Not all those who wander are lost.</p>
+          </div>
+          <div class="element_line mr_post"></div>
+          <footer class="post_inf mr_post_inf">
+            <img src="assets\images\mat_vogels.jpg">
+            <span class="author">Mat Vogels</span>
+            <span class="posted_time"><time datetime="2015-09-25">9/25/2015</time> </span>
+          </footer>
+        </article>
+        <article>
+          <div class="post_category mr_post_category" hidden>
+            <div class="post_category_btn btn">
+              <span>Travel</span>
+            </div>
+          </div>
+          <div class="element_line mr_post"></div>
+          <div class="post_desc mr_post_desc">
+            <h1>Try it Always</h1>
+            <p>The world is a book, and those who do not travel read only one page.</p>
+          </div>
+          <div class="element_line mr_post"></div>
+          <footer class="post_inf mr_post_inf">
+            <img src="assets\images\mat_vogels.jpg">
+            <span class="author">Mat Vogels</span>
+            <span class="posted_time"><time datetime="2015-09-25">9/25/2015</time> </span>
+          </footer>
+        </article>
+      </div>
+    </section>
+  </div>
+  <footer class="footer">
+    <div class="footer_container">
+      <div class="footer_inner cntnt_prp">
+        <div class="footer_logo logo">Escape.</div>
+        <nav class="footer_nav_bar">
+          <a class="fnb_link nav_link" href="#">HOME</a>
+          <a class="fnb_link nav_link" href="#">CATEGORIES</a>
+          <a class="fnb_link nav_link" href="#">ABOUT</a>
+          <a class="fnb_link nav_link" href="#">CONTACT</a>
         </nav>
+      </div>
     </div>
-</footer>
+  </footer>
 </body>
+
 </html>
