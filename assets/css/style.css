@@ -1,9 +1,64 @@
-body, .section_title {
+body,
+.section_title {
     font-family: 'Oxygen', sans-serif;
+}
+body{
+    margin: 0;
+    height: 1909px;
+}
+/* Header*/
+.header{
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 1440px;
+    height: 74px;
+    top: 0;
+    z-index: 100;
+}
+.header_inner{
+    position: relative;
+
+    top: 17px;
+    width: 940px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_logo{
+    position: relative;
+    top: 3px;
+    text-align: right;
+    font-size: 26px;
+    line-height: 26px;
+
+}
+.header_nav_bar{
+    position: relative;
+    right: 0;
+    height: 40px;
+}
+/*
+.header_nav_item{
+    height: 40px;
+}*/
+.hnb_link{
+    display: inline-block;
+    vertical-align: middle;
+    height: 40px;
+
     font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    /*color: #fff;*/
 }
 
 
-.logo, .nm_link, h1, h2 {
+.logo,
+.nm_link,
+h1,
+h2 {
     font-family: 'Lora', serif;
 }
