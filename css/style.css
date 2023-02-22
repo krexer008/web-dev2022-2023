@@ -15,7 +15,7 @@ body{
     top: 0;
     z-index: 100;
 }
-.header_inner{
+.header__inner{
     position: relative;
 
     top: 17px;
