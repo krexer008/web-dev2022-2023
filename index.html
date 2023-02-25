@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <!--<link rel="stylesheet" href="css/index.css">-->
+  <link rel="stylesheet" href="css/index.css">
   <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400&family=Oxygen:wght@400&display=swap"
     rel="stylesheet">
   <title>Escape.</title>
@@ -16,117 +16,122 @@
 <body>
   <div class="intro">
     <header class="header">
-      <span class="header__logo">Escape.</span>
-      <nav class="header_nav_bar">
-        <a class="hnb_link nav_link active" href="#">Home</a>
-        <a class="hnb_link nav_link" href="#">Categories</a>
-        <a class="hnb_link nav_link" href="#">About</a>
-        <a class="hnb_link nav_link" href="#">Contact</a>
+      <span class="header__logo logo">Escape.</span>
+      <nav class="header__nav nav">
+        <a class="nav__link" href="index.html">Home</a>
+        <a class="nav__link" href="#">Categories</a>
+        <a class="nav__link" href="#">About</a>
+        <a class="nav__link" href="#">Contact</a>
       </nav>
     </header>
-    <h1 class="intro__title">Let's do it together</h1>
+    <h1 class="intro__title">Let's do it together.</h1>
     <p class="intro__subtitle">We travel the world in search of stories. Come along for the ride.</p>
     <button class="intro__btn">View Latest Posts</button>
   </div>
-
   <nav class="menu">
-    <a class="nm_link nav_link" href="#">Nature</a>
-    <a class="nm_link nav_link" href="#">Photography</a>
-    <a class="nm_link nav_link" href="#">Relaxation</a>
-    <a class="nm_link nav_link" href="#">Vacation</a>
-    <a class="nm_link nav_link" href="#">Travel</a>
-    <a class="nm_link nav_link" href="#">Adventure</a>
+    <a class="menu__link nav_link" href="#">Nature</a>
+    <a class="menu__link nav_link" href="#">Photography</a>
+    <a class="menu__link nav_link" href="#">Relaxation</a>
+    <a class="menu__link nav_link" href="#">Vacation</a>
+    <a class="menu__link nav_link" href="#">Travel</a>
+    <a class="menu__link nav_link" href="#">Adventure</a>
   </nav>
   <div class="main">
-    <section class="featured_post">
-      <h2 class="section_title">Featured Posts</h2>
-      <div class="posts fp_section">
-        <div>
-          <span class="post_category fp_post_category" hidden>Photography</span>
-          <h2>The Road Ahead</h2>
-          <p>The road ahead might be paved - it might not be.</p>
-          <div class="post_inf fp_post_inf">
-            <img src="images/mat_vogels.jpg" alt="">
-            <span class="author">Mat Vogels</span>
-            <time datetime="2015-09-25">September 25, 2015</time>
+    <section class="section">
+      <h2 class="section__title">Featured Posts</h2>
+      <div class="section__content">
+        <div class="section__post post">
+          <img class="post__image" src="images/the_road_ahead.jpg" alt="">
+          <span class="post__category" hidden>Photography</span>
+          <div class="post__text">
+            <h2 class="post__title">The Road Ahead</h2>
+            <p class="post__desc">The road ahead might be paved - it might not be.</p>
+            <div class="post__info">
+              <img class="post__author-avatar" src="images/mat_vogels.jpg" alt="Mat Vogels">
+              <span class="post__author">Mat Vogels</span>
+              <time class="post__time" datetime="2015-09-25">September 25, 2015</time>
+            </div>
           </div>
         </div>
-        <div>
-          <span class="post_category fp_post_category">Adventure</span>
-          <h2>From Top Down</h2>
-          <p>Once a year, go someplace you never been before.</p>
-          <div class="post_inf fp_post_inf">
-            <img src="images/william_wong.jpg" alt="">
-            <span class="author">William Wong</span>
-            <time datetime="2015-09-25">September 25, 2015</time>
+        <div class="section__post">
+          <img class="post__image" src="images/from_top_down.jpg" alt="">
+          <span class="post__category">Adventure</span>
+          <div class="post__text">
+            <h2 class="post__title">From Top Down</h2>
+            <p class="post__desc">Once a year, go someplace you never been before.</p>
+            <div class="post__info">
+              <img class="post__author-avatar" src="images/william_wong.jpg" alt="">
+              <span class="post__author">William Wong</span>
+              <time class="post__time" datetime="2015-09-25">September 25, 2015</time>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="most_recent">
-      <h2 class="section_title">Most Recent</h2>
-      <div class="posts mr_section">
-        <div>
+    <section class="section">
+      <h2 class="section__title">Most Recent</h2>
+      <div class="section__posts mr_section">
+        <div class="post">
           <img src="images/still_standing_tall.jpg" alt="">
           <span class="post_category fp_post_category" hidden>Nature</span>
           <h2>Still Standing Tall</h2>
           <p>Life begins at the end of your comfort zone.</p>
-          <div class="post_inf mr_post_inf">
-            <img src="images/william_wong.jpg" alt="">
-            <span class="author">William Wong</span>
-            <time datetime="2015-09-25">9/25/2015</time>
+          <div class="post__info mr_post_inf">
+            <img class="post__author-avatar" src="images/william_wong.jpg" alt="William Wong">
+            <span class="post__author">William Wong</span>
+            <time class="post__time" datetime="2015-09-25">9/25/2015</time>
           </div>
         </div>
-        <div>
+        <div class="post">
           <img src="images/sunny_side_up.jpg" alt="">
           <span class="post_category fp_post_category" hidden>Photography</span>
           <h2>Sunny Side Up</h2>
           <p>No place is ever as bad as they tell you it's going to be.</p>
-          <div class="post_inf mr_post_inf">
-            <img src="images/mat_vogels.jpg" alt="">
+          <div class="post__info mr_post_inf">
+            <img src="images/mat_vogels.jpg" alt="Mat Vogels">
             <span class="author">Mat Vogels</span>
             <time datetime="2015-09-25">9/25/2015</time>
           </div>
         </div>
-        <div>
+        <div class="post">
           <img src="images/water_falls.jpg" alt="">
           <span class="post_category fp_post_category" hidden>Relaxation</span>
           <h2>Water Falls</h2>
           <p>We travel not to escape life, but for life not to escape us.</p>
-          <div class="post_inf mr_post_inf">
+          <div class="post__info mr_post_inf">
             <img src="images/mat_vogels.jpg" alt="">
             <span class="author">Mat Vogels</span>
             <time datetime="2015-09-25">9/25/2015</time>
           </div>
         </div>
-        <div>
+        <div class="post">
           <img src="images/through_the_mist.jpg" alt="">
           <span class="post_category fp_post_category" hidden>Vacation</span>
           <h2>Through the Mist</h2>
           <p>Travel makes you see what a tiny place you occupy in the world.</p>
-          <div class="post_inf mr_post_inf">
+          <div class="post__info mr_post_inf">
             <img src="images/william_wong.jpg" alt="">
             <span class="author">William Wong</span>
             <time datetime="2015-09-25">9/25/2015</time>
           </div>
         </div>
-        <div>
+        <div class="post">
           <img src="images/awaken_early.jpg" alt="">
           <span class="post_category fp_post_category" hidden>Vacation</span>
           <h2>Awaken Early</h2>
           <p>Not all those who wander are lost.</p>
-          <div class="post_inf mr_post_inf">
+          <div class="post__info mr_post_inf">
             <img src="images/mat_vogels.jpg" alt="">
             <span class="author">Mat Vogels</span>
             <time datetime="2015-09-25">9/25/2015</time>
           </div>
         </div>
-        <div>
+        <div class="post">
           <img src="images/try_it_always.jpg" alt="">
           <span class="post_category fp_post_category" hidden>Travel</span>
           <h2>Try it Always</h2>
           <p>The world is a book, and those who do not travel read only one page.</p>
-          <div class="post_inf mr_post_inf">
+          <div class="post__info mr_post_inf">
             <img src="images/mat_vogels.jpg" alt="">
             <span class="author">Mat Vogels</span>
             <time datetime="2015-09-25">9/25/2015</time>
@@ -136,12 +141,12 @@
     </section>
   </div>
   <footer class="footer">
-    <span class="logo">Escape.</span>
-    <nav class="footer_nav_bar">
-      <a class="fnb_link nav_link" href="#">HOME</a>
-      <a class="fnb_link nav_link" href="#">CATEGORIES</a>
-      <a class="fnb_link nav_link" href="#">ABOUT</a>
-      <a class="fnb_link nav_link" href="#">CONTACT</a>
+    <span class="footer__logo logo">Escape.</span>
+    <nav class="footer__nav nav">
+      <a class="nav__link" href="index.html">Home</a>
+      <a class="nav__link" href="#">Categories</a>
+      <a class="nav__link" href="#">About</a>
+      <a class="nav__link" href="#">Contact</a>
     </nav>
   </footer>
 </body>
