@@ -47,7 +47,8 @@ h3 {
 .nav {
     margin-right: 0;
     margin-left: auto;
-    display: flex;
+    display: flex;    
+    flex-wrap: wrap;
 }
 
 .nav__link {
@@ -63,7 +64,6 @@ h3 {
     letter-spacing: 0.6px;
     color: #ffffff;
 }
-
 
 /* Intro*/
 .intro {
@@ -102,6 +102,7 @@ h3 {
     font-size: 13px;
     font-weight: 400;
     line-height: 20px;
+    text-transform: capitalize;
     color: #ffffff;
 
     background: #DD783F;
@@ -181,7 +182,6 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-
 }
 
 .section__content_fp {
@@ -369,6 +369,6 @@ h3 {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.nav__link_foot:last-child{
+.nav__link_foot:last-child {
     margin-right: 0;
 }
