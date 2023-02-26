@@ -18,10 +18,10 @@
     <header class="header">
       <span class="header__logo logo">Escape.</span>
       <nav class="header__nav nav">
-        <a class="nav__link" href="index.html">Home</a>
-        <a class="nav__link" href="#">Categories</a>
-        <a class="nav__link" href="#">About</a>
-        <a class="nav__link" href="#">Contact</a>
+        <a class="nav__link nav__link_head" href="index.html">Home</a>
+        <a class="nav__link nav__link_head" href="#">Categories</a>
+        <a class="nav__link nav__link_head" href="#">About</a>
+        <a class="nav__link nav__link_head" href="#">Contact</a>
       </nav>
     </header>
     <h1 class="intro__title">Let's do it together.</h1>
@@ -38,116 +38,130 @@
   </nav>
   <div class="main">
     <section class="section">
-      <h2 class="section__title">Featured Posts</h2>
-      <div class="section__content">
-        <div class="section__post post">
-          <img class="post__image" src="images/the_road_ahead.jpg" alt="">
-          <span class="post__category" hidden>Photography</span>
-          <div class="post__text">
-            <h2 class="post__title">The Road Ahead</h2>
-            <p class="post__desc">The road ahead might be paved - it might not be.</p>
-            <div class="post__info">
-              <img class="post__author-avatar" src="images/mat_vogels.jpg" alt="Mat Vogels">
-              <span class="post__author">Mat Vogels</span>
-              <time class="post__time" datetime="2015-09-25">September 25, 2015</time>
-            </div>
+      <h2 class="section__title">Featured posts</h2>
+      <div class="section__content section__content_fp">
+        <div class="section__post section__post_fp">
+          <img class="post__image post__image_fp" src="images/the_road_ahead.jpg" alt="">
+          <span class="post__category post__category_fp" hidden>Photography</span>
+          <div class="post__text post__text_fp">
+            <h2 class="post__title post__title_fp">The Road Ahead</h2>
+            <p class="post__desc post__desc_fp">The road ahead might be paved - it might not be.</p>
+          </div>
+          <div class="post__info post__info_fp">
+            <img class="post__author-avatar" src="images/mat_vogels.jpg" alt="Mat Vogels">
+            <span class="post__author">Mat Vogels</span>
+            <time class="post__time" datetime="2015-09-25">September 25, 2015</time>
           </div>
         </div>
-        <div class="section__post">
-          <img class="post__image" src="images/from_top_down.jpg" alt="">
-          <span class="post__category">Adventure</span>
-          <div class="post__text">
-            <h2 class="post__title">From Top Down</h2>
-            <p class="post__desc">Once a year, go someplace you never been before.</p>
-            <div class="post__info">
-              <img class="post__author-avatar" src="images/william_wong.jpg" alt="">
-              <span class="post__author">William Wong</span>
-              <time class="post__time" datetime="2015-09-25">September 25, 2015</time>
-            </div>
+        <div class="section__post section__post_fp">
+          <img class="post__image post__image_fp" src="images/from_top_down.jpg" alt="">
+          <span class="post__category post__category_fp">Adventure</span>
+          <div class="post__text post__text_fp">
+            <h2 class="post__title post__title_fp">From Top Down</h2>
+            <p class="post__desc post__desc_fp">Once a year, go someplace you never been before.</p>
+          </div>
+          <div class="post__info post__info_fp">
+            <img class="post__author-avatar" src="images/william_wong.jpg" alt="">
+            <span class="post__author">William Wong</span>
+            <time class="post__time" datetime="2015-09-25">September 25, 2015</time>
           </div>
         </div>
       </div>
     </section>
     <section class="section">
-      <h2 class="section__title">Most Recent</h2>
-      <div class="section__posts mr_section">
-        <div class="post">
-          <img src="images/still_standing_tall.jpg" alt="">
-          <span class="post_category fp_post_category" hidden>Nature</span>
-          <h2>Still Standing Tall</h2>
-          <p>Life begins at the end of your comfort zone.</p>
-          <div class="post__info mr_post_inf">
+      <h2 class="section__title">Most recent</h2>
+      <div class="section__content">
+        <div class="section__post section__post_mr post">
+          <img class="post__image post__image_mr" src="images/still_standing_tall.jpg" alt="">
+          <span class="post__category post__category_mr" hidden>Nature</span>
+          <div class="post__text post__text_mr">
+            <h2 class="post__title post__title_mr">Still Standing Tall</h2>
+            <p class="post__desc post__desc_mr">Life begins at the end of your comfort zone.</p>
+          </div>
+          <div class="post__info post__info_mr">
             <img class="post__author-avatar" src="images/william_wong.jpg" alt="William Wong">
             <span class="post__author">William Wong</span>
             <time class="post__time" datetime="2015-09-25">9/25/2015</time>
           </div>
         </div>
-        <div class="post">
-          <img src="images/sunny_side_up.jpg" alt="">
-          <span class="post_category fp_post_category" hidden>Photography</span>
-          <h2>Sunny Side Up</h2>
-          <p>No place is ever as bad as they tell you it's going to be.</p>
-          <div class="post__info mr_post_inf">
-            <img src="images/mat_vogels.jpg" alt="Mat Vogels">
-            <span class="author">Mat Vogels</span>
-            <time datetime="2015-09-25">9/25/2015</time>
+        <div class="section__post section__post_mr">
+          <img class="post__image post__image_mr" src="images/sunny_side_up.jpg" alt="">
+          <span class="post__category post__category_mr" hidden>Photography</span>
+          <div class="post__text post__text_mr">
+            <h2 class="post__title post__title_mr">Sunny Side Up</h2>
+            <p class="post__desc post__desc_mr">No place is ever as bad as they tell you it's going to be.</p>
+          </div>
+          <div class="post__info post__info_mr">
+            <img class="post__author-avatar" src="images/mat_vogels.jpg" alt="Mat Vogels">
+            <span class="post__author">Mat Vogels</span>
+            <time class="post__time" datetime="2015-09-25">9/25/2015</time>
           </div>
         </div>
-        <div class="post">
-          <img src="images/water_falls.jpg" alt="">
-          <span class="post_category fp_post_category" hidden>Relaxation</span>
-          <h2>Water Falls</h2>
-          <p>We travel not to escape life, but for life not to escape us.</p>
-          <div class="post__info mr_post_inf">
-            <img src="images/mat_vogels.jpg" alt="">
-            <span class="author">Mat Vogels</span>
-            <time datetime="2015-09-25">9/25/2015</time>
+        <div class="section__post section__post_mr">
+          <img class="post__image post__image_mr" src="images/water_falls.jpg" alt="">
+          <span class="post__category post__category_mr" hidden>Relaxation</span>
+          <div class="post__text post__text_mr">
+            <h2 class="post__title post__title_mr">Water Falls</h2>
+            <p class="post__desc post__desc_mr">We travel not to escape life, but for life not to escape us.</p>
+          </div>
+          <div class="post__info post__info_mr">
+            <img class="post__author-avatar" src="images/mat_vogels.jpg" alt="">
+            <span class="post__author">Mat Vogels</span>
+            <time class="post__time" datetime="2015-09-25">9/25/2015</time>
           </div>
         </div>
-        <div class="post">
-          <img src="images/through_the_mist.jpg" alt="">
-          <span class="post_category fp_post_category" hidden>Vacation</span>
-          <h2>Through the Mist</h2>
-          <p>Travel makes you see what a tiny place you occupy in the world.</p>
-          <div class="post__info mr_post_inf">
-            <img src="images/william_wong.jpg" alt="">
-            <span class="author">William Wong</span>
-            <time datetime="2015-09-25">9/25/2015</time>
+        <div class="section__post section__post_mr">
+          <img class="post__image post__image_mr" src="images/through_the_mist.jpg" alt="">
+          <span class="post__category post__category_mr" hidden>Vacation</span>
+          <div class="post__text post__text_mr">
+            <h2 class="post__title post__title_mr">Through the Mist</h2>
+            <p class="post__desc post__desc_mr">Travel makes you see what a tiny place you occupy in the world.</p>
+          </div>
+          <div class="post__info post__info_mr">
+            <img class="post__author-avatar" src="images/william_wong.jpg" alt="">
+            <span class="post__author">William Wong</span>
+            <time class="post__time" datetime="2015-09-25">9/25/2015</time>
           </div>
         </div>
-        <div class="post">
-          <img src="images/awaken_early.jpg" alt="">
-          <span class="post_category fp_post_category" hidden>Vacation</span>
-          <h2>Awaken Early</h2>
-          <p>Not all those who wander are lost.</p>
-          <div class="post__info mr_post_inf">
-            <img src="images/mat_vogels.jpg" alt="">
-            <span class="author">Mat Vogels</span>
-            <time datetime="2015-09-25">9/25/2015</time>
+        <div class="section__post section__post_mr">
+          <img class="post__image post__image_mr" src="images/awaken_early.jpg" alt="">
+          <span class="post__category post__category_mr" hidden>Vacation</span>
+          <div class="post__text post__text_mr">
+            <h2 class="post__title post__title_mr">Awaken Early</h2>
+            <p class="post__desc post__desc_mr">Not all those who wander are lost.</p>
+          </div>
+          <div class="post__info post__info_mr">
+            <img class="post__author-avatar" src="images/mat_vogels.jpg" alt="">
+            <span class="post__author">Mat Vogels</span>
+            <time class="post__time" datetime="2015-09-25">9/25/2015</time>
           </div>
         </div>
-        <div class="post">
-          <img src="images/try_it_always.jpg" alt="">
-          <span class="post_category fp_post_category" hidden>Travel</span>
-          <h2>Try it Always</h2>
-          <p>The world is a book, and those who do not travel read only one page.</p>
-          <div class="post__info mr_post_inf">
-            <img src="images/mat_vogels.jpg" alt="">
-            <span class="author">Mat Vogels</span>
-            <time datetime="2015-09-25">9/25/2015</time>
+        <div class="section__post section__post_mr">
+          <img class="post__image post__image_mr" src="images/try_it_always.jpg" alt="">
+          <span class="post__category post__category_mr" hidden>Travel</span>
+          <div class="post__text post__text_mr">
+            <h2 class="post__title post__title_mr">Try it Always</h2>
+            <p class="post__desc post__desc_mr">The world is a book, and those who do not travel read only one page.</p>
+          </div>
+          <div class="post__info post__info_mr">
+            <img class="post__author-avatar" src="images/mat_vogels.jpg" alt="">
+            <span class="post__author">Mat Vogels</span>
+            <time class="post__time" datetime="2015-09-25">9/25/2015</time>
           </div>
         </div>
       </div>
     </section>
   </div>
   <footer class="footer">
-    <span class="footer__logo logo">Escape.</span>
-    <nav class="footer__nav nav">
-      <a class="nav__link" href="index.html">Home</a>
-      <a class="nav__link" href="#">Categories</a>
-      <a class="nav__link" href="#">About</a>
-      <a class="nav__link" href="#">Contact</a>
-    </nav>
+    <div class="footer__container">
+      <span class="footer__logo logo">Escape.</span>
+      <nav class="nav footer__nav">
+        <a class="nav__link nav__link_foot" href="index.html">Home</a>
+        <a class="nav__link nav__link_foot" href="#">Categories</a>
+        <a class="nav__link nav__link_foot" href="#">About</a>
+        <a class="nav__link nav__link_foot" href="#">Contact</a>
+      </nav>
+    </div>
   </footer>
 </body>
 
