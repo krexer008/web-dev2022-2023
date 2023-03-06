@@ -20,7 +20,8 @@ body {
 
 .nav__link,
 .section__title,
-.description {
+.description,
+.post__info {
     font-family: "Oxygen", sans-serif;
 }
 
