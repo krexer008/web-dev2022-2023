@@ -73,8 +73,7 @@ body {
 /* Intro*/
 .intro {
     height: 500px;
-    background: #000 url("/images/inner_background.jpg") no-repeat center;
-    background-size: cover;
+    background: #000 url("/images/inner_background.jpg") no-repeat center/cover;
 }
 
 .intro__title {
