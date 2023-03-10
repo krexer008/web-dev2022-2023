@@ -19,6 +19,7 @@ body {
 
 .nav__link,
 .description,
+.subscribe__title,
 .main__item {
     font-family: "Oxygen", sans-serif;
 }
@@ -26,6 +27,13 @@ body {
 .logo,
 .title {
     font-family: "Lora", serif;
+}
+
+.input-email,
+.input-button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
 }
 
 /* Header*/
@@ -131,11 +139,76 @@ body {
 }
 
 /* Footer*/
+
 .footer {
-    height: 100%;
-    background: url("/images/footer_background.jpg") no-repeat center / cover;
+    height: 378px;
+    background: url("/images/footer-background_1440_378.jpg") no-repeat center / cover;
     display: flex;
-    align-items: flex-end;
+    flex-direction: column;
+}
+
+.subscribe {
+    margin: 0 auto 0;
+    width: 100%;
+    height: 289px;
+    text-align: center;
+    border-bottom: rgba(255, 255, 255, 0.12) 1px solid;
+}
+
+.subscribe__title {
+    margin-top: 81px;
+    margin-bottom: 1px;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #efefef;
+}
+
+.subscribe__title:after {
+    content: "";
+    display: block;
+    width: 188px;
+    height: 1px;
+    background-color: #DEDEDE;
+    margin: 16px auto 0;
+}
+
+.subscribe__input {
+    margin: 20px auto 90px;
+    width: 500px;
+    height: 50px;
+    display: flex;
+
+}
+
+.input-email {
+    width: 375px;
+    height: 50px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    
+    border-radius: 3px 0 0 3px;
+    background: #FFFFFF;
+    border: 0;
+}
+
+.input-email::placeholder {    
+    padding: 18px 35px 18px;
+    color: #817F83;
+}
+
+.input-button {
+    width: 125px;
+    height: 50px;
+    border-radius: 0 3px 3px 0;
+    background: rgba(255, 255, 255, 0.28);
+    border: 0;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #F8F8F8;
 }
 
 
@@ -144,6 +217,7 @@ body {
     height: 89px;
     background: rgba(35, 47, 56, 0.6);
     display: flex;
+
     justify-content: center;
     align-items: center;
 }
@@ -153,6 +227,7 @@ body {
     width: 100%;
     height: 34px;
     display: flex;
+    align-items: center;
 }
 
 .nav__link_foot {
