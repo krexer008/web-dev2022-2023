@@ -3,7 +3,34 @@
 *:after {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    font-weight: 400;
+}
+
+h2 {
+    display: block;
+    font-size: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    font-weight: 400;
+}
+
+p {
+    display: block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
 }
 
 .hidden {
@@ -31,7 +58,7 @@ body {
 
 .input-email,
 .input-button {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
 }
@@ -60,7 +87,6 @@ body {
 }
 
 .nav {
-    margin-right: 0;
     margin-left: auto;
     display: flex;
     flex-wrap: wrap;
@@ -86,23 +112,26 @@ body {
 
 /* Intro*/
 .intro {
-    background: #F5F5F5;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .intro__title {
-    margin: 82px auto 0;
+    margin-top: 82px;
     max-width: 498px;
     width: 100%;
     font-size: 50px;
     font-weight: 400;
     line-height: 51px;
-    text-align: center;
     letter-spacing: 2px;
+    text-align: center;
     color: #2E2E2E;
 }
 
 .intro__description {
-    margin: 20px auto 0;
+    margin-top: 20px;
     max-width: 504px;
     width: 100%;
     font-size: 17px;
@@ -113,7 +142,7 @@ body {
 }
 
 .intro__image {
-    margin: 113px auto 0;
+    margin-top: 113px;
     max-width: 1440px;
     width: 100%;
     border-radius: 3px;
@@ -124,14 +153,18 @@ body {
     max-width: 1440px;
     width: 100%;
     height: 100%;
-    padding: 140px 0 135px;
+    padding-top: 140px;
+    padding-bottom: 135px;
     background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.main__item {    
+.main__item {
     max-width: 960px;
     width: 100%;
-    margin: 0 auto 34px;
+    margin-bottom: 34px;
     font-weight: 400;
     font-size: 24px;
     line-height: 35px;
@@ -148,11 +181,12 @@ body {
 }
 
 .subscribe {
-    margin: 0 auto 0;
     width: 100%;
     height: 289px;
-    text-align: center;
     border-bottom: rgba(255, 255, 255, 0.12) 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .subscribe__title {
@@ -161,6 +195,8 @@ body {
     font-size: 25px;
     font-weight: 400;
     line-height: 30px;
+
+    text-align: center;
     text-transform: capitalize;
     color: #efefef;
 }
@@ -171,15 +207,14 @@ body {
     width: 188px;
     height: 1px;
     background-color: #DEDEDE;
-    margin: 16px auto 0;
+    margin-top: 16px;
 }
 
 .subscribe__input {
-    margin: 20px auto 90px;
+    margin-top: 20px;
     width: 500px;
     height: 50px;
     display: flex;
-
 }
 
 .input-email {
@@ -188,13 +223,12 @@ body {
     font-size: 12px;
     font-weight: 400;
     line-height: 14px;
-    
     border-radius: 3px 0 0 3px;
     background: #FFFFFF;
     border: 0;
 }
 
-.input-email::placeholder {    
+.input-email::placeholder {
     padding: 18px 35px 18px;
     color: #817F83;
 }
