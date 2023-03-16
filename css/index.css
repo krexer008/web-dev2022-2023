@@ -35,7 +35,7 @@ p {
 
 
 .hidden {
-    opacity: 0;
+    display: none;
 }
 
 body {
@@ -63,8 +63,7 @@ body {
     font-style: normal;
 }
 
-.input-email,
-.input-button {
+.input {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -78,11 +77,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
 .logo {
-    width: 92px;
     font-size: 26px;
     line-height: 26px;
     color: #ffffff;
@@ -120,7 +118,6 @@ body {
 
 .intro__title {
     margin-top: 103px;
-    max-width: 498px;
     font-size: 50px;
     font-weight: 400;
     line-height: 51px;
@@ -130,8 +127,6 @@ body {
 
 .intro__description {
     margin-top: 20px;
-    max-width: 504px;
-    width: 100%;
     font-size: 17px;
     font-weight: 400;
     line-height: 20px;
@@ -141,9 +136,7 @@ body {
 
 .intro__btn {
     margin-top: 31px;
-    max-width: 167px;
-    width: 100%;
-    height: 44px;
+    padding: 12px 31px;
     font-size: 13px;
     font-weight: 400;
     line-height: 20px;
@@ -156,17 +149,17 @@ body {
 }
 
 .menu {
-    margin: 9px auto 10px;
-    padding: 0 3px;
+    margin: auto;
     max-width: 960px;
-    width: 100%;
+    width: 100%;    
+    height: 65px;
     display: flex;
     background: #ffffff;
-
+    justify-content: space-around;
+    align-items: center;
 }
 
-.menu__link {
-    margin: 0 10px;
+.menu__link {    
     padding: 13px 0;
     max-width: 139px;
     width: 100%;
@@ -175,14 +168,12 @@ body {
     font-weight: 400;
     line-height: 20px;
     text-align: center;
-    vertical-align: middle;
     text-decoration: none;
     color: #768088;
 }
 
 /* Main*/
 .main {
-    height: 100%;
     background: #f7f7f7;
     padding-bottom: 89px;
     display: flex;
@@ -191,6 +182,7 @@ body {
 }
 
 .section {
+    margin-top: 60px;
     max-width: 960px;
     width: 100%;
     display: flex;
@@ -199,11 +191,10 @@ body {
 }
 
 .section__title {
-    margin-top: 60px;
     font-size: 20px;
     font-weight: 400;
     line-height: 27px;
-    letter-spacing: 2px;    
+    letter-spacing: 2px;
     text-align: center;
     text-transform: capitalize;
     color: #2E2E2E;
@@ -214,7 +205,7 @@ body {
     content: "";
     display: block;
     width: 188px;
-    height: 1px;    
+    height: 1px;
     background-color: #DEDEDE;
     margin: 16px auto 0;
 }
@@ -235,7 +226,7 @@ body {
     max-width: 460px;
     padding: 20px 20px 15px;
     width: 100%;
-    height: 280px;
+    height:disabled 280px;
     display: flex;
     flex-direction: column;
 }
@@ -248,7 +239,7 @@ body {
     background: #000 url("/images/from_top_down.jpg") no-repeat;
 }
 
-.post__category_disabled {
+.disabled {
     opacity: 0;
 }
 
@@ -290,10 +281,13 @@ body {
 .post__info_top {
     margin-top: 12px;
     color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .post__author-avatar {
-    margin: auto 0;
+    align-self: center;
     width: 26px;
     height: 26px;
     border-radius: 13px;
@@ -304,6 +298,7 @@ body {
 }
 
 .post__time {
+
     margin-left: auto;
 }
 
@@ -342,7 +337,7 @@ body {
     background: #E6C728;
 }
 
-.post__text_bottom {
+.post__about {
     padding: 14px 13px 0;
     height: 94px;
     border-top: #E5E5E5 solid 1px;
@@ -460,7 +455,7 @@ body {
     max-width: 940px;
     width: 100%;
     height: 34px;
-    display: flex;    
+    display: flex;
     align-items: center;
     justify-content: space-between;
 }
