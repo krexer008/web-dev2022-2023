@@ -47,30 +47,13 @@ body {
     max-width: 1440px;
     width: 100%;
     height: auto;
-}
-
-.nav__link,
-.intro__btn,
-.section__title,
-.post__category,
-.subscribe__title,
-.description,
-.post__info {
     font-family: "Oxygen", sans-serif;
     font-style: normal;
 }
 
-.logo,
-.title,
-.categories__link {
+.title {
     font-family: "Lora", serif;
     font-style: normal;
-}
-
-.input {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 400;
 }
 
 /* Header*/
@@ -88,6 +71,9 @@ body {
     font-size: 26px;
     line-height: 26px;
     color: #ffffff;
+
+    font-family: "Lora", serif;
+    font-style: normal;
 }
 
 
@@ -129,7 +115,7 @@ body {
     color: #ffffff;
 }
 
-.intro__description {
+.intro__descr {
     margin-top: 20px;
     font-size: 17px;
     font-weight: 400;
@@ -156,7 +142,7 @@ body {
 .categories {
     margin: auto;
     max-width: 960px;
-    width: 100%;    
+    width: 100%;
     height: 65px;
     display: flex;
     background: #ffffff;
@@ -164,7 +150,7 @@ body {
     align-items: center;
 }
 
-.categories__link {    
+.categories__link {
     padding: 13px 0;
     max-width: 139px;
     width: 100%;
@@ -175,6 +161,9 @@ body {
     text-align: center;
     text-decoration: none;
     color: #768088;
+
+    font-family: "Lora", serif;
+    font-style: normal;
 }
 
 .mainpage__content {
@@ -227,8 +216,8 @@ body {
     margin: 7px 10px;
     max-width: 460px;
     width: 100%;
-    padding: 20px 20px 15px;    
-    height:disabled 280px;
+    padding: 20px 20px 15px;
+    height: disabled 280px;
     display: flex;
     flex-direction: column;
 }
@@ -261,7 +250,7 @@ body {
     color: #ffffff;
 }
 
-.post__description_top {
+.post__descr_top {
     margin-top: 6px;
     font-size: 14px;
     font-weight: 400;
@@ -345,7 +334,7 @@ body {
     color: #101315
 }
 
-.post__description_bottom {
+.post__descr_bottom {
     margin-top: 7px;
     font-size: 13px;
     font-weight: 400;
@@ -435,6 +424,13 @@ body {
     line-height: 14px;
     color: #F8F8F8;
 }
+
+.input {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
 
 
 .footer__container {
