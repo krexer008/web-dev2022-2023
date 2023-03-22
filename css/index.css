@@ -33,7 +33,6 @@ p {
     margin-inline-end: 0;
 }
 
-
 .hidden {
     display: none;
 }
@@ -64,14 +63,12 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .logo {
     font-size: 26px;
     line-height: 26px;
     color: #ffffff;
-
     font-family: "Lora", serif;
     font-style: normal;
 }
@@ -131,13 +128,12 @@ body {
     line-height: 20px;
     text-transform: capitalize;
     color: #ffffff;
-
     background: #DD783F;
     border: none;
     border-radius: 3px;
 }
 
-/* Mainpage*/
+/* main-page*/
 .categories {
     margin: auto;
     max-width: 960px;
@@ -165,7 +161,7 @@ body {
     font-style: normal;
 }
 
-.mainpage__content {
+.main-page__content {
     background: #f7f7f7;
     padding-bottom: 89px;
     display: flex;
@@ -173,7 +169,7 @@ body {
     align-items: center;
 }
 
-.mainpage__section {
+.main-page__section {
     margin-top: 60px;
     max-width: 960px;
     width: 100%;
@@ -261,14 +257,12 @@ body {
     font-size: 12px;
     font-weight: 400;
     line-height: 35px;
+    align-items: center;
 }
 
 .featured-post__info {
     margin-top: 12px;
     color: rgba(255, 255, 255, 0.7);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
 .post-info__author-avatar {
@@ -291,16 +285,20 @@ body {
 .recent-post {
     position: relative;
     margin: 6px 0 19px;
-    max-width: 296px;
-    width: 100%;
+    width: 296px;
     background: #FFFFFF;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.09);
     border-radius: 3px;
+    display: flex;
+    flex-direction: column;
 }
 
 .recent-post__image {
     height: 150px;
+    width: 296px;
     background-color: #D6D6D6;
+    border-bottom: #E5E5E5 solid 1px;
+
 }
 
 .recent-post__category {
@@ -316,33 +314,28 @@ body {
     background: #E6C728;
 }
 
-.recent-post__about {
-    padding: 14px 13px 0;
-    height: 94px;
-    border-top: #E5E5E5 solid 1px;
-    border-bottom: #E5E5E5 solid 1px;
-}
-
 .recent-post__title {
+    padding: 14px 13px 0;
     font-size: 16px;
     font-weight: 400;
     line-height: 21px;
-    color: #101315
+    color: #101315;
 }
 
 .recent-post__descr {
-    margin-top: 7px;
+    padding: 7px 13px 0;
     font-size: 13px;
     font-weight: 400;
     line-height: 19px;
+    height: 58px;
     color: #7A7A7A;
+    border-bottom: #E5E5E5 solid 1px;
 }
 
 .recent-post__info {
     position: relative;
-    width: 100%;
     padding: 0 13px;
-    line-height: 48px;
+    height: 48px;
     color: #999999;
     background: #FCFCFC;
 }
@@ -371,7 +364,6 @@ body {
     font-size: 25px;
     font-weight: 400;
     line-height: 30px;
-
     text-align: center;
     text-transform: capitalize;
     color: #efefef;
@@ -426,8 +418,6 @@ body {
     font-style: normal;
     font-weight: 400;
 }
-
-
 
 .footer__container {
     height: 89px;
