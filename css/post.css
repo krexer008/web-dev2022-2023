@@ -71,6 +71,10 @@ body {
     font-style: normal;
 }
 
+.logo_black {
+    color: #2E2E2E;
+}
+
 
 .nav {
     display: flex;
